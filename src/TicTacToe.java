@@ -1,7 +1,7 @@
 /**
  * Created by Adam on 6/29/2016. Worksheet 4
  */
-public class W4P1 {
+public class TicTacToe {
     public static void main(String[] args){
         String[] board = new String[9];
         clearBoard(board);
