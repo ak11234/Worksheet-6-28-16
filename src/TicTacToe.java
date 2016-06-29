@@ -1,3 +1,4 @@
+import javax.sql.rowset.spi.SyncResolver;
 import java.util.Scanner;
 
 /**
@@ -7,14 +8,55 @@ public class TicTacToe {
     public static final String[] playerSymbol = { "X", "O" };
     public static String[] playerType = {"Human" , "Computer"};
     public static void main(String[] args){
+        System.out.println("How many players?: ");
+        Scanner scan = new Scanner(System.in);
+        int numplayers;
+        numplayers = scan.nextInt();
+        if (numplayers==0){
+            playerType[0]="Computer";
+        }
+        if (numplayers==2){
+            playerType[1]="Human";
+        }
         String[] board = new String[9];
         int player = 0;
+        int currentMove;
         clearBoard(board);
+        while (getBoardState(board)==4){
+            //GAME TIME
+            printBoard(board);
+            currentMove=getMove(board,player);
+            while (! isLegalMove(board, currentMove)){
+                System.out.println(playerType[player] + " has made an invalid move and must try again.");
+                currentMove=getMove(board,player);
+            }
+            board[currentMove]=playerSymbol[player];
+            player = switchPlayer(player);
+        }
         printBoard(board);
         System.out.println("State code: " + getBoardState(board));
-        getComputerMove(board,1);
-        printBoard(board);
-        System.out.println("State code: " + getBoardState(board));
+    }
+    public static int getMove(String[] board, int player){
+        if (playerType[player].equals("Human")){
+            return getHumanMove();
+        }
+        else if (playerType[player].equals("Computer")){
+            return getComputerMove(board,player);
+        }
+        return -1;
+    }
+    public static boolean isLegalMove(String[] board, int move){
+        if (board[move].equals("*")){
+            return true;
+        }
+        return false;
+    }
+    public static int switchPlayer(int player){
+        if (player==0){
+            return 1;
+        }else {
+            return 0;
+        }
     }
     public static int getHumanMove(){
         System.out.println("Present your move: ");
@@ -23,10 +65,11 @@ public class TicTacToe {
         num = scan.nextInt();
         return num;
     }
-    public static void getComputerMove(String[] board, int computernum){
+    public static int getComputerMove(String[] board, int computernum){
         int move = ((int) (Math.random()*8));
-        board[move]=playerSymbol[computernum];
-        System.out.println("i moved -" + playerSymbol[computernum] + "- into position " + move);
+        return move;
+    //    board[move]=playerSymbol[computernum];
+    //    System.out.println("i moved -" + playerSymbol[computernum] + "- into position " + move);
     }
     public static void printRow(String[] board, int startSquare)
     {
@@ -89,6 +132,6 @@ public class TicTacToe {
                 return 4; //open space, game still on
             }
         }
-        return 5;
+        return 3;
     }
 }
