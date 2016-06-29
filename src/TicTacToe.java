@@ -78,7 +78,7 @@ public class TicTacToe {
         return num;
     }
     public static int getComputerMove(String[] board, int computernum){
-        int move = ((int) (Math.random()*8));
+        int move = ((int) (Math.random()*9));
         return move;
     //    board[move]=playerSymbol[computernum];
     //    System.out.println("i moved -" + playerSymbol[computernum] + "- into position " + move);
