@@ -12,6 +12,7 @@ public class TicTacToe {
         board[4] = "O";
         board[7] = "O";
         printBoard(board);
+        System.out.println("State code: " + getBoardState(board));
     }
     public static void printRow(String[] board, int startSquare)
     {
@@ -40,22 +41,40 @@ public class TicTacToe {
         for (int k=0 ; k<=6 ; k+=3){ //check for horizontal row wins
             if (board[k].equals(board[k+1])&&board[k].equals(board[k+2])){
                 if (board[k].equals("X")){
-                    state=1;//x wins
+                    return 1;//x wins
                 } else if (board[k].equals("O")){
-                    state=2; //o wins
+                    return 2; //o wins
                 }
             }
         }
-        for (int k=0 ; k<=3 ; k++){ //check for vertical wins
+        for (int k=0 ; k<3 ; k++){ //check for vertical wins
             if (board[k].equals(board[k+3])&&board[k].equals(board[k+6])){
                 if (board[k].equals("X")){
-                    state=1;//x wins
+                    return 1;//x wins
                 } else if (board[k].equals("O")){
-                    state=2; //o wins
+                    return 2; //o wins
                 }
             }
         }
-
-        return state;
+        if (board[0].equals(board[4])&&board[0].equals(board[8])){ //check topleft to br diag win
+            if (board[0].equals("X")){
+                return 1;//x wins
+            } else if (board[0].equals("O")){
+                return 2; //o wins
+            }
+        }
+        if (board[2].equals(board[4])&&board[2].equals(board[6])){ //check topleft to br diag win
+            if (board[2].equals("X")){
+                return 1;//x wins
+            } else if (board[2].equals("O")){
+                return 2; //o wins
+            }
+        }
+        for (int k=0 ; k<=8 ; k++){ //check if any open spaces
+            if (board[k].equals("*")){
+                return 4; //open space, game still on
+            }
+        }
+        return 5;
     }
 }

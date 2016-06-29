@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1d3770-c616-4d5f-9c69-9abcb766c4f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TicTacToe.java" afterPath="$PROJECT_DIR$/src/TicTacToe.java" />
     </list>
@@ -89,8 +90,8 @@
       <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="-323">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -131,6 +132,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1366" />
@@ -212,22 +220,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.W4P1">
-    <configuration default="false" name="W3P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="W3P1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Worksheet-6-28-16" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration default="false" name="W3P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="W3P2" />
@@ -276,6 +269,21 @@
     <configuration default="false" name="W4P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="W4P1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Worksheet-6-28-16" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -683,19 +691,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.W3P1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.W3P2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.W3P4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.W3P5" />
-      <item index="4" class="java.lang.String" itemvalue="Application.W4P1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.W3P2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.W3P4" />
+      <item index="2" class="java.lang.String" itemvalue="Application.W3P5" />
+      <item index="3" class="java.lang.String" itemvalue="Application.W4P1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TicTacToe" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.W4P1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.W3P5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.W3P4" />
-        <item index="3" class="java.lang.String" itemvalue="Application.W3P2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.W3P1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TicTacToe" />
+        <item index="1" class="java.lang.String" itemvalue="Application.W4P1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.W3P5" />
+        <item index="3" class="java.lang.String" itemvalue="Application.W3P4" />
+        <item index="4" class="java.lang.String" itemvalue="Application.W3P2" />
       </list>
     </recent_temporary>
   </component>
@@ -709,7 +717,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1467213940899</updated>
-      <workItem from="1467213945569" duration="8024000" />
+      <workItem from="1467213945569" duration="10550000" />
     </task>
     <task id="LOCAL-00001" summary="Midway backup">
       <created>1467217808694</created>
@@ -732,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467223243587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Starting getBoardState">
+      <created>1467224877520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467224877520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8024000" />
+    <option name="totallyTimeSpent" value="10550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -750,7 +765,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -776,7 +791,8 @@
     <MESSAGE value="Midway backup" />
     <MESSAGE value="Start tictactoe" />
     <MESSAGE value="TicTacToe Board prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe Board prints" />
+    <MESSAGE value="Starting getBoardState" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting getBoardState" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -799,14 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/W3P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -835,10 +843,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/W3P2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="-323">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
