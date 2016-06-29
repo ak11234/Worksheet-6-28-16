@@ -1,18 +1,32 @@
+import java.util.Scanner;
+
 /**
  * Created by Adam on 6/29/2016. Worksheet 4
  */
 public class TicTacToe {
+    public static final String[] playerSymbol = { "X", "O" };
+    public static String[] playerType = {"Human" , "Computer"};
     public static void main(String[] args){
         String[] board = new String[9];
+        int player = 0;
         clearBoard(board);
-        board[1] = "X";
-        board[3] = "X";
-        board[8] = "X";
-        board[2] = "O";
-        board[4] = "O";
-        board[7] = "O";
         printBoard(board);
         System.out.println("State code: " + getBoardState(board));
+        getComputerMove(board,1);
+        printBoard(board);
+        System.out.println("State code: " + getBoardState(board));
+    }
+    public static int getHumanMove(){
+        System.out.println("Present your move: ");
+        Scanner scan = new Scanner(System.in);
+        int num;
+        num = scan.nextInt();
+        return num;
+    }
+    public static void getComputerMove(String[] board, int computernum){
+        int move = ((int) (Math.random()*8));
+        board[move]=playerSymbol[computernum];
+        System.out.println("i moved -" + playerSymbol[computernum] + "- into position " + move);
     }
     public static void printRow(String[] board, int startSquare)
     {
