@@ -34,6 +34,18 @@ public class TicTacToe {
             player = switchPlayer(player);
         }
         printBoard(board);
+        int status =getBoardState(board);
+        if (status==1){
+            System.out.println("X Wins!");
+        }
+        else if (status==2){
+            System.out.println("O Wins!");
+        }
+        else if (status==3){
+            System.out.println("Looks like it was a tie -_-");
+        } else {
+            System.out.println("Error: State Code: " + status);
+        }
         System.out.println("State code: " + getBoardState(board));
     }
     public static int getMove(String[] board, int player){
